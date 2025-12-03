@@ -339,6 +339,7 @@ unreal/**/Saved
 unreal/**/Package
 unreal/**/.vscode
 unreal/**/ProjectAirSim/SimLibs
+unreal/Blocks 5.2/
 
 # VS Code projects
 *.code-workspace
@@ -366,6 +367,10 @@ docs/README.md
 
 # virtualenv
 env/
+venv/
+airsim-venv/
+.venv/
+*.venv/
 
 # client library dev install
 **/projectairsim.egg-info/

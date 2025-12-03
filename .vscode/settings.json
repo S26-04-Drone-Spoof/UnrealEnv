@@ -1,6 +1,7 @@
 {
-  "cmake.buildDirectory": "${workspaceFolder}/build/${variant:platform}/${variant:buildType}",
-  "cmake.generator": "Ninja",
+  "cmake.buildDirectory": "${workspaceFolder}/build/win64",
+  "cmake.generator": "Visual Studio 17 2022",
+  "cmake.configureOnOpen": false,
   "python.formatting.provider": "black",
   "python.analysis.extraPaths": [
     "client/python"
